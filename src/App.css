@@ -1,0 +1,31 @@
+@import url("https://fonts.google.com/specimen/Rubik");
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  /* padding-left: 4rem !important; */
+  padding-right: 0 !important;
+  box-sizing: border-box;
+  background-color: white !important;
+  background-image: url("./img/background.png") !important;
+  width: 100% !important;
+  background-size: cover;
+  /* height: 100%; */
+  min-height: 110vh;
+  width: 100% !important;
+  background-position: center;
+  font-family: rubik;
+}
+@font-face {
+  font-family: Rubik;
+  /* src: url("/public/Fonts/Rubik/Rubik-VariableFont_wght.ttf"); */
+  src: url("/public/Fonts/Press_Start_2P/PressStart2P-Regular.ttf");
+}
+.font {
+  font-family: Rubik;
+}
+
+.MMpwq {
+  background-color: black !important;
+}

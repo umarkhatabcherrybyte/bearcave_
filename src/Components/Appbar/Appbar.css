@@ -1,0 +1,45 @@
+.navLogo{
+    height: 4rem;
+    width: 4rem;
+}
+/* .nav-btn-group{
+    margin-left: 10rem !important;
+    margin-right: 10rem;
+} */
+ .nav-btn-group{
+    /* padding-top: 16px; */
+    /* margin-left: 2rem; */
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+
+.right-btn{
+    /* margin-left: 5rem;
+    padding-top: 12px;*/
+    padding-left: 1rem !important;
+    display: flex;
+    justify-content: right; 
+    padding-top: 15px;
+} 
+.btn-icon{
+    height: 10px;
+    width: 10px;
+}
+@media screen and (min-width: 1140px) {
+    .mbl-screen-btn{
+        display: none;
+    }
+  
+    
+  }
+  @media screen and (max-width: 1140px) {
+    .nav-btn-group{
+        display: none;
+    }
+    .right-btn{
+        display: none;
+    }
+    
+  }
+
